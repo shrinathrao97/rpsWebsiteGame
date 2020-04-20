@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html class="background">
+
+	<header>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<title> Rock Paper Scissors</title>
+	
+	</header>
+	
+
+	<body>
+		<div class= "computerChoiceContainer">
+			<img id="computerChoice" class="computerChoiceImage" src="paper.png"><img>
+		</div>
+
+		<div class="userChoiceContainer">
+			<ul>
+				<li> <button type= "button" id = "rock" onclick= "rockChoice()" class="userChoiceButton"><p>Rock</p> </button></li>
+				<li> <button type= "button" class="userChoiceButton" onclick="paperChoice()"><p>Paper</p> </button></li>
+				<li> <button type= "button" class="userChoiceButton" onclick="scissorsChoice()"><p>Scissors</p> </button></li>
+
+			</ul>
+		</div>
+	</body>
+
+	<footer>
+		<div class="inlineFooterContainer">
+			<ul>
+				<li><p>Rock Paper Scissors!</p></li>
+				<li><p>Press a button to select your choice!</p></li>
+				<li><p>The computer will auto choose once you have chosen!</p><li>
+				<li><p>You can see the computer's choice via the shown image!</p><li>
+
+			</ul>
+
+		</div>
+
+	</footer>
+
+	<script src="script.js"></script>
+
+</html>

@@ -1,0 +1,83 @@
+
+.background{
+	height: 100vh;
+	background: linear-gradient(30deg, #CCFFFF, #FFCCCC);
+}
+
+
+.computerChoiceContainer{
+	display: block;
+	margin-top: 150px;
+	color: black;
+	font-size: 3em;
+	font: helvetica, arial;
+	text-align: center;
+}
+
+
+.computerChoiceImage{
+	width: 4em;
+	height: 3em;
+	text-align: center;
+
+}	
+.userChoiceContainer ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+.userChoiceContainer li {
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+	margin-top: 2em;
+}
+
+.userChoiceButton {
+	border: none;
+	background-color: #d3d3d3;
+	border-radius: 7px;
+	width: 7em;
+	color: gray;
+}
+
+.userChoiceButton:hover {
+	box-shadow: 0 0 1em;
+}
+
+.userChoiceButton:focus { 
+
+	outline: none;
+}
+
+.userChoiceButton:active{
+	background-color: gray;
+	color: #d3d3d3;
+
+}
+
+
+.inlineFooterContainer {
+	margin: 0;
+	padding: 0;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+}
+
+.inlineFooterContainer ul{
+	list-style-type: none;
+}
+
+.inlineFooterContainer li{
+	color: gray;
+}
+
+.inlineFooterContainer p{
+	padding: 0;
+	margin: 0;
+}
+
+
